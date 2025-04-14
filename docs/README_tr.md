@@ -59,10 +59,10 @@ Bu Arduino kütüphanesi Deneyap Çift Kanallı Motor Sürücü I2C çevre birim
 | SCL      | Veri Hattı Zaman Senkronizasyon İşareti	 | SCL pini|
 |SWIM | Debug | bağlantı yok |
 |RES  | Debug | bağlantı yok |
-|IN1A	|Phase A |Dijital pin|
-|IN1B	|Enable A|PWM pin|
-|IN2A	|Phase B |Dijital pin|
-|IN2B	|Enable B|PWM pin|
+|IN1A	|Enable A |Dijital pin|
+|IN2A	|Phase A|PWM pin|
+|IN1B	|Enable B |Dijital pin|
+|IN2B	|Phase B|PWM pin|
 |STBY	|Standby pin|Dijital pin|
 |MODE 	|Control mode select pin|Dijital pin|
 
