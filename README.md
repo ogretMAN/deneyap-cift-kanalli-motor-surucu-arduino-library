@@ -60,10 +60,10 @@ This Arduino library allows you to use Deneyap Dual Channel Motor Driver with I2
 |SCL  | I2C Clock | SCL pin |
 |SWIM | Debug | no connection |
 |RES  | Debug | no connection |
-|IN1A	|Phase A |Digital pin|
-|IN1B	|Enable A|PWM pin|
-|IN2A	|Phase B |Digital pin|
-|IN2B	|Enable B|PWM pin|
+|IN1A	|Enable A |Digital pin|
+|IN2A	|Phase A|PWM pin|
+|IN1B	|Enable B |Digital pin|
+|IN2B	|Phase B|PWM pin|
 |STBY	|Standby pin|Digital pin|
 |MODE 	|Control mode select pin|Digital pin|
 
