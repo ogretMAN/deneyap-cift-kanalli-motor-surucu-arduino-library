@@ -1,18 +1,22 @@
 /*   
  *    CiftKanalliDCmotorSurmeNoI2C örneği,
  *    Bu örnekte temel konfigürasyon ayarları yapılmaktadır. 
- *    A kanalına bağlı DC motor 250 dutycyle hızında dönmektedir. B kanalına bağlı DC motor 150 dutycyle hızında dönmektedir.
  *    
+ *          [+]  PİN BAĞLANTILARI
  *    >>>Deneyap Motor Sürücü 3V3 pini Deneyap Kart 3v3 pinine bağlandı<<<
  *    >>>Deneyap Motor Sürücü GND pini Deneyap Kart GND pinine bağlandı<<<
  *    >>>Deneyap Motor Sürücü SDA pini Deneyap Kart SDA pinine bağlandı<<<
  *    >>>Deneyap Motor Sürücü SCL pini Deneyap Kart SCL pinine bağlandı<<<
- *    >>>Deneyap Motor Sürücü MODE pini Deneyap Kart D9 pinine bağlandı<<<<
+ *    >>>Deneyap Motor Sürücü MODE pini Deneyap Kart D9 pinine bağlandı<<<
  *    >>>Deneyap Motor Sürücü STBY pini 3.3v bağlanmalıdır<<<<
- *
  *    >>>Deneyap Motor Sürücü SWM pini BOŞ BIRAKILDI<<<
  *    >>>Deneyap Motor Sürücü RES pini BOŞ BIRAKILDI<<<
- 
+
+ *    >>>Deneyap Kart Motor Sürücü üzerindeki Yeşil Terminaller (Klemensler)
+ *    >>>VM pini Deneyap Kart BAT pinine bağlandı<<<
+ *    >>>GND pini Deneyap Kart GND pinine bağlandı<<<
+ *    >>>A ve B terminal bağlantıları için aşağıdaki setup() fonksiyonuna bakın
+ *          [-]  PİN BAĞLANTILARI
  *
  *    Bu algılayıcı I2C haberleşme protokolü ile çalışmaktadır
  *    Bu örnek I2C haberleşme protokolü KULLANILMADAN yazılmıştır
